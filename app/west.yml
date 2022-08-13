@@ -33,5 +33,10 @@ manifest:
           - edtt
           - trusted-firmware-m
           - sof
+    - name: zephyr-pro-micro-rp2040
+      remote: nakato
+      revision: main
+      path: modules/boards/zephyr-pro-micro-rp2040
+
   self:
     west-commands: scripts/west-commands.yml
