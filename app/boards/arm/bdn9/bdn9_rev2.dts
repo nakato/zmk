@@ -7,7 +7,7 @@
 /dts-v1/;
 #include <st/f0/stm32f072Xb.dtsi>
 #include <st/f0/stm32f072c(8-b)tx-pinctrl.dtsi>
-#include <dt-bindings/led/led.h>
+#include <zephyr/dt-bindings/led/led.h>
 
 / {
 	model = "Keeb.io BDN9 rev2";

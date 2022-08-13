@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include <zephyr.h>
+#include <zephyr/zephyr.h>
 #include <zmk/event_manager.h>
 
 struct zmk_battery_state_changed {
