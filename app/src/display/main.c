@@ -19,7 +19,7 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 #include <zmk/events/activity_state_changed.h>
 #include <zmk/display/status_screen.h>
 
-#define ZMK_DISPLAY_NAME CONFIG_LVGL_DISPLAY_DEV_NAME
+#define ZMK_DISPLAY_NAME CONFIG_LV_Z_DISPLAY_DEV_NAME
 
 static const struct device *display;
 static bool initialized = false;
