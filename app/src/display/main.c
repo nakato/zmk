@@ -51,7 +51,10 @@ struct k_work_q *zmk_display_work_q() {
 }
 
 void display_timer_cb() {
-    lv_tick_inc(TICK_MS);
+    /* Why can't lv_tick_inc be found, it looks like it should exist.
+     * The display works without it though, so...
+     */
+    // lv_tick_inc(TICK_MS);
     k_work_submit_to_queue(zmk_display_work_q(), &display_tick_work);
 }
 
